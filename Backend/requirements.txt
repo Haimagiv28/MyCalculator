@@ -1,0 +1,4 @@
+FastApi
+Uvicorn
+Math
+Pydantic
