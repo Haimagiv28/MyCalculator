@@ -1,4 +1,5 @@
 import json
+import numpy as np
 from fastapi import FastAPI
 from pydantic import BaseModel
 from models import *
@@ -39,4 +40,9 @@ def divide_calc(numberTemp: numbers):
 
 @app.post("/pow")
 def pow_calc(numberTemp: numbers):
-    return {"The sum is":  power(numberTemp.num1, numberTemp.num2)}
+    return {"Res: ":  power(numberTemp.num1, numberTemp.num2)}
+
+
+@app.post("/linear_plot")
+def linear_plot_calc(numberTemp: numbers):
+    return {"Res :": linear_plot(numberTemp.num1, numberTemp.num2)}
