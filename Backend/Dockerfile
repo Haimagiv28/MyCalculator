@@ -1,6 +1,6 @@
 FROM python:3.11.0
 
-WORKDIR /'העבודה שולחן'/Backend
+WORKDIR /app
 
 COPY requirements.txt .
 
