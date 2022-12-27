@@ -1,5 +1,3 @@
 FastApi
 Uvicorn
-Math
-Numpy
 Pydantic

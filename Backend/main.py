@@ -19,30 +19,30 @@ def welcome():
 
 
 @app.post("/add")
-def add_calc(numberTemp: numbers):
-    return {"The sum is":  add(numberTemp.num1, numberTemp.num2)}
+def add_calc(numberBase: numbers):
+    return {"Res":  add(numberBase.num1, numberBase.num2)}
 
 
 @app.post("/sub")
-def sub_calc(numberTemp: numbers):
-    return {"The sum is":  sub(numberTemp.num1, numberTemp.num2)}
+def sub_calc(numberBase: numbers):
+    return {"Res":  sub(numberBase.num1, numberBase.num2)}
 
 
 @app.post("/multy")
-def multy_calc(numberTemp: numbers):
-    return {"The sum is":  multy(numberTemp.num1, numberTemp.num2)}
+def multy_calc(numberBase: numbers):
+    return {"Res":  multy(numberBase.num1, numberBase.num2)}
 
 
 @app.post("/divide")
-def divide_calc(numberTemp: numbers):
-    return {"The sum is":  divide(numberTemp.num1, numberTemp.num2)}
+def divide_calc(numberBase: numbers):
+    return {"Res":  divide(numberBase.num1, numberBase.num2)}
 
 
 @app.post("/pow")
-def pow_calc(numberTemp: numbers):
-    return {"Res: ":  power(numberTemp.num1, numberTemp.num2)}
+def pow_calc(numberBase: numbers):
+    return {"Res:":  power(numberBase.num1, numberBase.num2)}
 
 
 @app.post("/linear_plot")
-def linear_plot_calc(numberTemp: numbers):
-    return {"Res :": linear_plot(numberTemp.num1, numberTemp.num2)}
+def linear_plot_calc(numberBase: numbers):
+    return {"Res:": linear_plot(numberBase.num1, numberBase.num2)}
