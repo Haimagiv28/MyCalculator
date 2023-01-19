@@ -89,6 +89,9 @@ def navigate_pages(page):
         plt.ylabel('y-axis')
         plt.title('Linear Plot')
         st.pyplot(fig)
+
+        # printing the x and y points
+
         st.markdown(
             f"<b style='color: black; font-size: 30px;'>The X points are :</b>", unsafe_allow_html=True)
         for i in range(10):
