@@ -1,3 +1,4 @@
-FastApi  0.88.0
-Uvicorn 0.11.3
-Pydantic 1.10.2
+FastApi==0.88.0
+Uvicorn==0.11.3
+Pydantic==1.10.2
+numpy==1.23.5
