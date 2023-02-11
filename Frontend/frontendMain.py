@@ -1,5 +1,6 @@
 import streamlit as st
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 from PIL import Image
 import json
@@ -8,7 +9,7 @@ import requests
 
 icon = Image.open("icon.jpg")
 st.set_page_config(page_title="Haim's Calculator", page_icon=icon)
-backendURL = "http://localhost:8080"
+backendURL = "http://backend:8080"
 
 
 def navigate_pages(page):

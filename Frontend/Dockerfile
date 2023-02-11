@@ -1,13 +1,8 @@
 FROM python:3.9
 
-RUN mkdir /Frontend
-
-COPY requirements.txt /Frontend
-
 WORKDIR /Frontend
+COPY . .
 
 RUN pip install -r requirements.txt
 
-COPY . /Frontend
-
-EXPOSE 2810
+CMD [ "streamlit" , "run" , "frontendMain.py" ]
