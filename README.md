@@ -13,10 +13,10 @@ MyCalculator is a fullstack project that implements some functions :
 # Demonstration
 https://user-images.githubusercontent.com/95864976/218322488-89b301ae-c10d-4a70-ba8f-9c20a97a5467.mp4
 
-#Architcture
+# Architcture
 ![arc](https://user-images.githubusercontent.com/95864976/218322523-0fa0f1ee-0d06-43d2-b0b3-afc1019875bc.png)
 
-#Deployment
+# Deployment
 1. Install Docker and Git on your computer.
 2. Open your Terminal and run the following command : git clone https://github.com/Haimagiv28/MyCalculator.git
 3. Enter to the project folder and run the following command : cd MyCalculator.
